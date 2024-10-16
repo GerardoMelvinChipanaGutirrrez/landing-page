@@ -163,7 +163,7 @@
 /* ******************************************** */
 /* Estilos para la sección parallax */
 .parallax-banner {
-    background-image: url('file/background/bg-cp-4.png');
+    /* background-image: url('file/background/bg-cp-4.png'); */
     height: 154vh; /* La altura será siempre 100% de la altura de la ventana */
     background-attachment: fixed;
     background-position: center;
