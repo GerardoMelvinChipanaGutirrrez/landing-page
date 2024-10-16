@@ -1,0 +1,83 @@
+.bg-content-skill{
+    background-color: var(--background-color-1);
+    padding: 8rem 10rem;
+}
+.contnt-skill{
+    display: grid;
+    justify-items: center;
+    .title-skill {
+        color: #fff;
+        font-size: 55px;
+        font-family: var(--leter-3-Kanit);
+        padding: 0rem 9rem;
+        position: relative;
+        text-align: center;
+    }
+    
+    /* Crear un borde inferior interactivo con gradiente */
+    .title-skill::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; /* Ajusta el grosor del borde */
+        background: linear-gradient(to right, transparent, #fff, transparent);
+        transition: height 0.3s ease; /* Transición para que el borde sea interactivo */
+    }
+    
+  
+    .table-skill{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        padding: 4rem;
+        label{
+            padding: 2rem;
+            background-color: var(--color-label-2);
+            border-radius: 15px;
+            font-size: 30px;
+            filter: drop-shadow(0px 0px 8px #877356d0);
+
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .bg-content-skill{
+        padding: 0rem;
+    }
+    .table-skill{
+        padding: 0rem;
+    }
+    .contnt-skill{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contnt-experience .title-skill{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg-content-skill{
+        padding: 0rem;
+    }
+    .table-skill{
+        padding: 0rem;
+    }
+    .contnt-skill{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contnt-experience .title-skill{
+        padding: 0px;
+    }
+}

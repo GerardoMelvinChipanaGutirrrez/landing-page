@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Kanit", sans-serif; */
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+:root{
+    --color-label-1:#0D99FF;
+    --color-label-2:#FF9500;
+    --color-label-3:#864e00;
+    --color-label-4:#ffffff;
+    --background-color-1:#35A0E7;
+    --leter-1-Ubuntur:"Ubuntu", system-ui;
+    --leter-2-Poppin:"Poppins", sans-serif;
+    --leter-3-Kanit:"Kanit", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;    
+    
+}
+
+/* Estilos para el scrollbar en Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+    width: 1rem; /* Ancho del scrollbar */
+    height: 12px; /* Altura del scrollbar horizontal */
+  }
+  
+  /* Estilo para el carril del scrollbar */
+  body::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.281); /* Color del carril */
+    border-radius: 10px; /* Hace el carril redondeado */
+  }
+  
+  /* Estilo para la barra (thumb) */
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 166, 0, 0.486); /* Color de la barra */
+    border-radius: 10px; /* Redondea los bordes de la barra */
+    border: 3px solid rgba(255, 255, 255, 0.493); /* Espacio alrededor para darle un efecto circular */
+  }
+  
+  /* Opcional: hover en la barra */
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: orange; /* Cambia el color cuando el mouse está sobre la barra */
+  }
+  

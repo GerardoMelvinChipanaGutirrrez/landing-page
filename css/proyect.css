@@ -1,0 +1,219 @@
+.bg-contnt-proyect{
+    background-color: var(--background-color-1);
+}
+.contnt-proyect{
+    display: grid;
+    justify-items: center;
+     padding: 5rem;
+
+     .tittle-project {
+        color: #fff;
+        font-size: 55px;
+        font-family: var(--leter-3-Kanit);
+        padding: 0rem 9rem;
+        position: relative;
+    }
+    
+    /* Crear un borde inferior interactivo con gradiente */
+    .tittle-project::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; /* Ajusta el grosor del borde */
+        background: linear-gradient(to right, transparent, #fff, transparent);
+        transition: height 0.3s ease; /* Transición para que el borde sea interactivo */
+    }
+
+    
+     
+    .table-project{
+        display: flex;
+        padding: 5rem;
+        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        position: relative;
+        article{
+            width: 20rem;
+            height: 30rem;
+            /* display: grid; */
+            /* grid-template-rows: auto 1fr; */
+            position: relative;
+        
+            .img{
+                height: 12rem;
+                width: 100%;
+                background-size: cover;
+                /* filter: grayscale(100%); */
+                border-radius: 15px 15px 0px 0px;
+            }
+            .face{
+                position: absolute;
+                backface-visibility: hidden;
+                transition: .8s;
+                background-color: var(--color-label-2);
+                border-radius: 15px;
+            }
+            .front-card{
+                display: grid;
+                height: 100%;
+                grid-template-rows: auto 1fr;
+                transform: perspective(600px) rotateY(0deg);
+            }
+            .back-card{
+                display: grid;
+                color: var(--color-label-3);
+                align-content: space-between;
+                justify-items: center;
+                padding: 1.5rem;
+                height: 100%;
+                transform: perspective(600px) rotateY(180deg);
+                h2{
+                    text-align: center;
+                    font-weight: bold
+                }
+                p{
+                    margin: 0px;
+                    font-weight: bold
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: bold
+                }
+              }
+            .text-project{
+                padding: 2rem;
+                display: grid;
+                align-content: space-between;
+                justify-items: center;
+                height: 100%;
+                div{
+                    color: var(--color-label-3);
+                    display: grid;
+                    justify-items: center;
+                    h2{
+                        text-align: center;
+                        font-weight: bold
+                    }
+                    p{
+                        margin: 0px;
+                        font-weight: bold
+                    }
+                }
+            }
+            
+        }
+        article:hover{
+            .front-card{
+                /* display: none; */
+                transform: perspective(600px) rotateY(180deg);
+            }
+            .back-card{
+                /* display: grid; */
+                transform: perspective(600px) rotateY(360deg);
+            }
+        }
+    }
+}
+
+.conten-bg-nubes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    .cloud{
+        position: absolute;
+    }
+    .n1{
+        top: 10%;
+        left: -200px;
+        animation: float 120s linear infinite;
+    }
+    .n2{
+        height: 3rem;
+        top: 30%;
+        right: -200px; /* Empieza desde la derecha */
+        left: unset; /* Elimina el valor de left */
+        animation: float-reverse 150s linear infinite;
+    }
+    .n3{
+        height: 8rem;
+        top: 50%;
+        left: -200px;
+        animation: float 400s linear infinite running;
+    }
+    .n4{
+        top: 75%;
+        height: 15rem;
+        right: -200px; /* Empieza desde la derecha */
+        left: unset; /* Elimina el valor de left */
+        animation: float-reverse 220s linear infinite;
+    }
+    .n5{
+        top: 35%;
+        right: -200px; /* Empieza desde la derecha */
+        left: unset; /* Elimina el valor de left */
+        animation: float-reverse 120s linear infinite;
+        
+    }
+    .n6{
+        height: 5rem;
+        top: 70%;
+        left: -200px;
+        animation: float 100s linear infinite running;
+    }
+}
+/* Animación de flotar */
+@keyframes float {
+    0% {
+      left: -200px;
+    }
+    50% {
+
+      left: 100%;
+    }
+    100% {
+      left: -200px;
+    }
+  }
+  @keyframes float-reverse {
+    0% {
+      right: -200px;
+    }
+    50% {
+      right: 100%;
+    }
+    100% {
+      right: -200px;
+    }
+  }
+  @media (max-width: 768px) {
+
+    .contnt-proyect{
+        padding: 0rem;
+    }
+    .table-project{
+        padding: 2rem;
+    }
+    .tittle-project{
+        padding: 0rem 0rem;  
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .contnt-proyect{
+        padding: 0rem;
+    }
+    .table-project{
+        padding: 2rem;
+    }
+    .tittle-project{
+        padding: 0rem 0rem;
+    }
+}

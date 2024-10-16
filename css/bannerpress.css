@@ -1,0 +1,333 @@
+.navbarpi{
+    top: 0px;
+    position: sticky;
+    display: grid;
+    align-content: center;
+    font-family: "Ubuntu", system-ui;
+    background-color: white;
+    z-index: 1000;
+    /* border-bottom: solid 1px black; */
+    box-shadow: 0px 9px 8px -12px var(--color-label-1);
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0.8rem 2.5rem;
+        gap: 15px;
+        font-size: 20px;
+        list-style: none;
+    }
+}
+.nav-linki{
+    text-decoration: none;
+    color: var(--color-label-1);
+    padding: 8px;
+    
+}
+.nav-linki:hover{
+    background-color: var(--color-label-2);
+    border-radius: 10px;
+    color: #ffff;
+}
+.cont-banner{
+    display: grid;
+    grid-template-rows: 10% 1fr;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    .banner-aboutme{
+        height: 101%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;  
+        background-image: url("/file/background/bg-cp-4.png");
+    }
+}
+.Aboutme{
+    height: 150vh;
+    position: relative;
+    img{
+        width: 55rem;
+    }
+    .perfil{
+        grid-template-columns: 1fr 60%;
+        /* margin-top: 10rem; */
+        /* grid-template-rows: 100% 1fr; */
+        display: grid;
+        grid-template-areas: "a b b"
+        "a b b"
+        " c c c";
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        height: 100%;
+        position: relative;
+    }
+}
+
+.content-img-perfil{
+    display: grid;
+    justify-items: center;
+    position: relative;
+    align-items: center;
+    .circle{
+        height: 370px;
+        width: 370px;
+        background-color: var(--color-label-2);
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        top: -15%;
+        filter: drop-shadow(0px 0px 15px var(--color-label-2));
+    }
+    .img-perfil{
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+
+.dat-content{
+    display: grid;
+    height: 100vh;
+    gap: 3rem;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    .descrip-content{
+        background-color: #ffffff94;
+       font-family: var(--leter-1-Ubuntur);
+       padding: 2rem;
+       border-radius: 35px;
+       cursor: default;
+        .pro-skill{
+            font-family: var(--leter-3-Kanit);
+            font-size: 22px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+
+            .pro-skill2{
+                background-color: #ffff;
+                border-radius: 15px;
+                height: 3rem;
+                display: flex;
+            }
+            .skill-item-1{
+                /* background-color: #ffff; */
+                padding: 0.5rem 1.5rem;
+                border-radius: 0px 15px 15px 0px;
+                
+                color: var(--color-label-2);
+            }
+            .skill-item-2{
+                background-color: var(--color-label-2);
+                padding: 0.5rem;
+                border-radius: 15px;
+             
+                color: #ffff;
+            }
+        }
+        h3{
+            font-size: 40px;
+            color: var(--color-label-1);
+            margin: 0px;
+        }
+        h1{
+            font-size: 785%;
+            color: var(--color-label-1);
+            font-weight: bold
+        }
+    }
+
+
+}
+.redes-contentt{
+    background-color: var(--color-label-2);
+    border-radius: 15px;
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+    .bi{
+        color: #ffff;
+        height: 3rem;
+    }
+}
+
+
+
+/* ******************************************** */
+/* Estilos para la sección parallax */
+.parallax-banner {
+    background-image: url('/file/background/bg-cp-4.png');
+    height: 154vh; /* La altura será siempre 100% de la altura de la ventana */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    color: white; /* Ajusta el color según tu diseño */
+
+    width: 100vw;
+}
+
+.parallax-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* Media Query para dispositivos móviles */
+
+
+
+.bg-city-top{
+    background-color: transparent;
+    width: 100%;
+    height: 50vh;
+    .city-top{
+        width: 100%;
+    }
+}
+
+.card-descrip{
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    .face{
+        position: absolute;
+        backface-visibility: hidden;
+        transition: .8s;    
+    }
+    .frond-card{
+        transform: perspective(600px) rotateX(0deg);
+        
+    }
+    .back-card{
+        transform: perspective(600px) rotateX(180deg);
+        background-color: var(--color-label-2);
+        font-family: var(--leter-1-Ubuntur);
+        width: 40rem;
+        height: 100%;
+        padding: 2rem;
+        border-radius: 35px;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding: 3rem;
+        cursor: default;
+        p{
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+}
+.card-descrip:hover{
+    .frond-card{
+        transform: perspective(600px) rotateX(180deg);
+    }
+    .back-card{
+        transform: perspective(600px) rotateX(360deg);
+    }
+}
+@media (max-width: 768px) {
+    .banner-content{
+        height: 0%;
+    }
+    .content-img-perfil{
+        padding: 5rem 0rem;
+    }
+    .circle{
+        top: 0%;
+    }
+    .Aboutme{
+        height: 104%;
+        padding-top: 10rem;
+        display: grid;
+
+    }
+    .img-perfil{
+        height: 5rem;
+        width: 5rem;
+    }
+    .navbarpi{
+        display: none;
+    }
+    .Aboutme .perfil{
+        display: flex;
+        flex-direction:column;
+    }
+    .parallax-banner {
+        height: 100%; /* Reduce la altura en pantallas medianas */
+    }
+    .dat-content .descrip-content h1{
+        font-size: 500%;
+
+    }
+    .card-descrip .back-card{
+        width: 80%;
+        p{
+            font-size: 120%;
+        }
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .banner-content{
+        height: 0px;
+    }
+    .content-img-perfil{
+        padding: 5rem 0rem;
+    }
+    .circle{
+        top: 0%;
+    }
+    .Aboutme{
+        height: 104%;
+        padding-top: 10rem;
+        display: grid;
+
+    }
+    .img-perfil{
+        height: 5rem;
+        width: 5rem;
+    }
+    .Aboutme .perfil{
+        display: flex;
+        flex-direction: column;
+    }
+    .parallax-banner {
+        height: 100%; /* Aún más pequeño en móviles */
+    }
+    .dat-content .descrip-content h1{
+        font-size: 500%;
+
+    }
+    .card-descrip .back-card{
+        width: 80%;
+        p{
+            font-size: 120%;
+        }
+    }
+}

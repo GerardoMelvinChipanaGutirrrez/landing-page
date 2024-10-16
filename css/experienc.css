@@ -1,0 +1,80 @@
+.bg-contnt-experience{
+    background-color: #fff;
+    padding: 6rem 18rem;
+    position: relative;
+}
+.contnt-experience{
+    display: grid;
+    justify-items: center;
+    cursor: default;
+    .title-exp {
+        color: var(--color-label-2);
+        font-size: 55px;
+        font-family: var(--leter-3-Kanit);
+        padding: 0rem 9rem;
+        position: relative;
+    }
+    
+    /* Crear un borde inferior interactivo con gradiente */
+    .title-exp::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px; /* Ajusta el grosor del borde */
+        background: linear-gradient(to right, transparent, var(--color-label-2), transparent);
+        transition: height 0.3s ease; /* Transición para que el borde sea interactivo */
+    }
+    
+    
+    .cont-exp{
+        padding: 6rem 3rem;
+        margin: 0px;
+        li::marker{
+            color: var(--color-label-2);
+            font-size: 35px;
+        }
+        .tittle-experience{
+            color: var(--color-label-2);
+        }
+        h3{
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .bg-contnt-experience{
+        padding: 0rem;
+    }
+    /* .conten-bg-nubes{
+        display: none;
+    } */
+    .contnt-experience{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cont-exp{
+        padding: 6rem 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg-contnt-experience{
+        padding: 0rem;
+    }
+    /* .conten-bg-nubes{
+        display: none;
+    } */
+
+    .contnt-experience{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contnt-experience  .cont-exp{
+        padding: 6rem 4rem;
+    }
+}
