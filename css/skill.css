@@ -33,7 +33,7 @@
         justify-content: center;
         gap: 3rem;
         padding: 4rem;
-        label{
+        .label{
             padding: 2rem;
             background-color: var(--color-label-2);
             border-radius: 15px;
@@ -45,6 +45,11 @@
             align-items: center;
             justify-content: center;
             color: #fff;
+        }
+        .disflex{
+            display: flex;
+            gap: 5px;
+            align-items: center;
         }
     }
 }
