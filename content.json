@@ -1,0 +1,89 @@
+{   
+    "perfil":{
+        "nombre1":"Chipana",
+        "nombre2":"Gerardo",
+        "especialidad1":"Desarrollador Web",
+        "especialidad2":"Full stack",
+        "presentacion":"Soy una persona sociable y proactiva, centrada en mis objetivos, sobretodo me comprometo con cada actividad que he realizado con una pasión por aprender y resolver problemas eficientemente e idear nuevas soluciones."
+    },
+    "redes":{
+        "whatsapp":"https://wa.me/51990875807",
+        "github":"https://github.com/GerardoMelvinChipanaGutirrrez",
+        "linkeding":"https://www.linkedin.com/in/gerardo-melvin-chipana-gutierrez-64b452216/",
+        "email":"mailto:gerardoddat@gmail.com"
+    },
+    "habilidades":["Liderazgo","Creatividad","Cooperación","Oratoria"],
+    "habilidadesProfesionales":["Python","Javascript","PHP","HTML","CSS","Git","SQL","ProstgreSQL","NodeJS","React","Angular","Sass","Java","Pandas","Tailwind","Bootstrap","Power Bi","Excel"],
+    "experiencia":{
+        "0":{
+            "titulo":"Desarrollador web - fullstack",
+            "ubicacion":"EJERCITO DEL PERU - COEDE",
+            "fecha":"Abr 2023 - Dic 2023",
+            "Descrip":"Desarrolle un aplicativo web de atención al cliente para el área de soporte tecnico del departamento de telecomunicaciones ubicado en el COEDE - Realice la mayoria del proyecto llamado “YANAPUKUY, desde la estructua de la base de datos, el diseño de la pagina, el desarrollo de la interfaces, el sistema de consultas a la base de datos y las funciones de CRUD para la base de datos."
+        },
+        "1":{
+            "titulo":"Desarrollador de web - front end",
+            "ubicacion":"Digital BUHO",
+            "fecha":"Sep 2022 - Abril 2023",
+            "Descrip":"Desarrollaba pequeñas funciones de muchos proyectos en equipo como lo son un sistema de mensajeria, scrapiar paginas ecomer, login de seguridad y recapcha - la empresa se dedicaba a crear paginas coorporativas, asesoramiento respecto a ello y correos coorporativos."
+        }
+    },
+    "proyectos":{
+        "0":{
+            "name":"Yanapukuy",
+            "img":"file/proyectos/yanapukuy.png",
+            "url":"",
+            "frontDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket además.",
+            "BackDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket de consultas al área de soporte tecnico. cuenta con base de datos, sistema de acceso, tablas dinamicas, manejo de datos y consulta de estado."
+        },
+        "1":{
+            "name":"Compumax",
+            "img":"file/proyectos/compumax.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Compumax",
+            "frontDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado desde cero.",
+            "BackDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado desde cero."
+        },
+        "2":{
+            "name":"Login de banca por internet",
+            "img":"file/proyectos/acceso-de-seguridad.png",
+            "url":"https://github.com/MichelBalvinOrmedo1/bancaPorInternet",
+            "frontDescrip":"Clon de programa de acceso bancario.",
+            "BackDescrip":"Clon de programa de acceso bancario, tabajado en equipo el cual cuenta con algunas funciones de seguridad como recapcha, bloqueo de teclado, teclado númerico aleatorio."
+        },
+        "3":{
+            "name":"Clon-fluppy-bird",
+            "img":"file/proyectos/fluppy.jpg",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Fluppy-bird-clone",
+            "frontDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje.",
+            "BackDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje."
+        },
+        "4":{
+            "name":"Calculadora",
+            "img":"file/proyectos/calculadora.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Calculadora",
+            "frontDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje.",
+            "BackDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje."
+        },
+        "5":{
+            "name":"Pokedex-con- react",
+            "img":"file/proyectos/pokeapi.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Pokedex-React",
+            "frontDescrip":"Ejercicion desarrollado en React como parte de aprendisaje.",
+            "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
+        },
+        "6":{
+            "name":"Money-camb",
+            "img":"file/proyectos/cambia-camb.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Money-camb",
+            "frontDescrip":"Programa de cambio de divisas.",
+            "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
+        },
+        "7":{
+            "name":"Gifsapp",
+            "img":"file/proyectos/Gif-app.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Gif-app",
+            "frontDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest.",
+            "BackDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest."
+        }
+    }
+}
