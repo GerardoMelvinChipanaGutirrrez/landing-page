@@ -1,6 +1,6 @@
 console.log("conectado")
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('./content.json')
+    fetch('./data/content.json')
         .then(response => response.json())
         .then(data => {
             // Presentacion
