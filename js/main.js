@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2>${proy.name}</h2>
                             <p>${proy.BackDescrip}</p>
                         </div>
-                        <a href="">ver más</a>
+                        <a href="${proy.url}">ver más</a>
                     </div>
 
                 `;

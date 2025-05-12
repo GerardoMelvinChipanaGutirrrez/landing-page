@@ -80,7 +80,7 @@
         },
         "7":{
             "name":"Gifsapp",
-            "img":"file/proyectos/Gif-app.png",
+            "img":"file/proyectos/gif-app.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Gif-app",
             "frontDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest.",
             "BackDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest."
