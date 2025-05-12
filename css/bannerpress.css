@@ -1,17 +1,23 @@
 .navbarpi{
+    padding: 0rem 2.5rem;
     top: 0px;
     position: sticky;
-    display: grid;
+    display: flex;
     align-content: center;
     font-family: "Ubuntu", system-ui;
-    background-color: white;
+    /* background-color: var(--color-label-4); */
+    /* DARK MODE */
+    background-color: var(--color-label-5n);
     z-index: 1000;
     /* border-bottom: solid 1px black; */
-    box-shadow: 0px 9px 8px -12px var(--color-label-1);
+    /* box-shadow: 0px 9px 8px -12px var(--color-label-1); */
+    /* DARK MODE */
+    box-shadow: 0px 9px 8px -12px var(--color-leter-1);
+    justify-content: space-between;
     ul{
         display: flex;
         justify-content: flex-end;
-        margin: 0.8rem 2.5rem;
+        margin: 0.8rem 0rem;
         gap: 15px;
         font-size: 20px;
         list-style: none;
@@ -19,14 +25,20 @@
 }
 .nav-linki{
     text-decoration: none;
-    color: var(--color-label-1);
+    /* color: var(--color-label-2); */
+      /* DARK MODE */
+    color: var(--color-label-2n);
     padding: 8px;
     
 }
 .nav-linki:hover{
-    background-color: var(--color-label-2);
+    /* background-color: var(--color-label-2); */
+      /* DARK MODE */
+    background-color: var(--color-label-2n);
     border-radius: 10px;
-    color: #ffff;
+    /* color: var(--color-label-4); */
+    /* DARK MODE */
+    color: var(--color-label-5n);
 }
 .cont-banner{
     display: grid;
@@ -74,12 +86,16 @@
     .circle{
         height: 370px;
         width: 370px;
-        background-color: var(--color-label-2);
+        /* background-color: var(--color-label-2); */
+        /* DARK MODE */
+        background-color: var(--color-label-4n);
         border-radius: 50%;
         position: absolute;
         z-index: -1;
         top: -15%;
-        filter: drop-shadow(0px 0px 15px var(--color-label-2));
+        /* filter: drop-shadow(0px 0px 15px var(--color-label-2)); */
+        /* DARK MODE */
+        filter: drop-shadow(0px 0px 15px var(--color-label-4n));
     }
     .img-perfil{
         height: 25rem;
@@ -99,11 +115,14 @@
     align-content: center;
     justify-items: center;
     .descrip-content{
-        background-color: #ffffff94;
-       font-family: var(--leter-1-Ubuntur);
-       padding: 2rem;
-       border-radius: 35px;
-       cursor: default;
+        /* background-color: var(--color-label-5); */
+        /* DARK MODE */
+        background-color: var(--color-label-5);
+
+        font-family: var(--leter-1-Ubuntur);
+        padding: 2rem;
+        border-radius: 35px;
+        cursor: default;
         .pro-skill{
             font-family: var(--leter-3-Kanit);
             font-size: 22px;
@@ -134,12 +153,16 @@
         }
         h3{
             font-size: 40px;
-            color: var(--color-label-1);
+            /* color: var(--color-label-1); */
+            /* DARK MODE */
+            color: var(--color-label-1n);
             margin: 0px;
         }
         h1{
             font-size: 785%;
-            color: var(--color-label-1);
+            /* color: var(--color-label-1); */
+            /* DARK MODE */
+            color: var(--color-label-1n);
             font-weight: bold
         }
     }
@@ -147,13 +170,17 @@
 
 }
 .redes-contentt{
-    background-color: var(--color-label-2);
+    /* background-color: var(--color-label-2); */
+     /* DARK MODE */
+    background-color: var(--color-label-6n);
     border-radius: 15px;
     padding: 15px;
     gap: 20px;
     display: flex;
     .bi{
-        color: #ffff;
+        /* color: var(--color-label-4); */
+          /* DARK MODE */
+        color: var(--color-label-1n);
         height: 3rem;
     }
 }
@@ -225,7 +252,9 @@
     }
     .back-card{
         transform: perspective(600px) rotateX(180deg);
-        background-color: var(--color-label-2);
+        /* background-color: var(--color-label-2); */
+        /* DARK MODE */
+        background-color: var(--color-label-6n);
         font-family: var(--leter-1-Ubuntur);
         width: 40rem;
         height: 100%;

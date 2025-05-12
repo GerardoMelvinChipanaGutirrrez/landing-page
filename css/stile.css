@@ -16,7 +16,29 @@
     --color-label-2:#FF9500;
     --color-label-3:#864e00;
     --color-label-4:#ffffff;
+    --color-label-5:#ffffff94;
+    --color-leter-1:#fff;
     --background-color-1:#35A0E7;
+    --leter-1-Ubuntur:"Ubuntu", system-ui;
+    --leter-2-Poppin:"Poppins", sans-serif;
+    --leter-3-Kanit:"Kanit", sans-serif;
+}
+
+/* DARK MODE */
+:root{
+    --color-label-1n:#001421;
+    --color-label-2n:#fff;
+    --color-label-3n:#864e00;
+    --color-label-4n:#ffffff;
+    --color-label-5n:#326fa5a3;
+    --color-label-6n:#ffffff94;
+    --color-label-7n:#ffffffc4;
+    --color-label-8n:#0A0A0A;
+    --color-leter-1n:#FF9500;
+    --color-leter-2n:#4A4E69;
+    --color-leter-3n:#269c42;
+    --background-color-1:#0D1B2A;
+    --background-color-2:#020508;
     --leter-1-Ubuntur:"Ubuntu", system-ui;
     --leter-2-Poppin:"Poppins", sans-serif;
     --leter-3-Kanit:"Kanit", sans-serif;
