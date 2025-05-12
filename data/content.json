@@ -51,34 +51,41 @@
             "BackDescrip":"Clon de programa de acceso bancario, tabajado en equipo el cual cuenta con algunas funciones de seguridad como recapcha, bloqueo de teclado, teclado númerico aleatorio."
         },
         "3":{
+            "name":"listAPPpy",
+            "img":"file/proyectos/ListPY.png",
+            "url":"",
+            "frontDescrip":"aplicacion web de consultas a una tabla google sheets utilizando flask de py.",
+            "BackDescrip":"aplicacion web de consultas para ver la coordinacion o lista de elementos en una tabla dinamica de google sheets utilizando tecnologias como flask para hacer el manejo de la consulta post usando una llave google."
+        },
+        "4":{
             "name":"Clon-fluppy-bird",
             "img":"file/proyectos/fluppy.jpg",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Fluppy-bird-clone",
             "frontDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje.",
             "BackDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje."
         },
-        "4":{
+        "5":{
             "name":"Calculadora",
             "img":"file/proyectos/calculadora.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Calculadora",
             "frontDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje.",
             "BackDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje."
         },
-        "5":{
+        "6":{
             "name":"Pokedex-con- react",
             "img":"file/proyectos/pokeapi.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Pokedex-React",
             "frontDescrip":"Ejercicion desarrollado en React como parte de aprendisaje.",
             "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
         },
-        "6":{
+        "7":{
             "name":"Money-camb",
             "img":"file/proyectos/cambia-camb.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Money-camb",
             "frontDescrip":"Programa de cambio de divisas.",
             "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
         },
-        "7":{
+        "8":{
             "name":"Gifsapp",
             "img":"file/proyectos/gif-app.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Gif-app",
