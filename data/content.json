@@ -19,19 +19,19 @@
             "ubicacion":"Desarrollador web - fullstack",
             "titulo":"EJERCITO DEL PERU - COEDE",
             "fecha":"Abr 2023 - Dic 2023",
-            "Descrip":"Desarrolle un aplicativo web de atención al cliente para el área de soporte tecnico del departamento de telecomunicaciones ubicado en el COEDE - Realice la mayoria del proyecto llamado “YANAPUKUY, desde la estructua de la base de datos, el diseño de la pagina, el desarrollo de la interfaces, el sistema de consultas a la base de datos y las funciones de CRUD para la base de datos."
+            "Descrip":"Desarrollé un aplicativo web de atención al cliente para el área de soporte técnico del departamento de telecomunicaciones ubicado en el COEDE. Realicé la mayoría del proyecto llamado “YANAPUKUY”, desde la estructura de la base de datos, el diseño de la página, el desarrollo de las interfaces, el sistema de consultas a la base de datos y las funciones CRUD."
         },
         "1":{
             "ubicacion":"Desarrollador web - fullstack",
             "titulo":"Digital BUHO",
             "fecha":"Sep 2022 - Abril 2023",
-            "Descrip":"Desarrollaba pequeñas funciones de muchos proyectos en equipo como lo son un sistema de mensajeria, scrapiar paginas ecomer, login de seguridad y recapcha - la empresa se dedicaba a crear paginas coorporativas, asesoramiento respecto a ello y correos coorporativos."
+            "Descrip":"Desarrollaba pequeñas funciones en varios proyectos en equipo, como un sistema de mensajería, el scrapping de páginas e-commerce, login de seguridad y reCAPTCHA. La empresa se dedicaba a crear páginas corporativas, brindar asesoramiento al respecto y gestionar correos corporativos."
         },
         "3":{
             "ubicacion":"Desarrollador de software",
             "titulo":"Trabajo independiente",
             "fecha":"Sep 2023 - Abril 2024 / Ago 2024 - Actualidad",
-            "Descrip":"Trabajo independiente en el cual he desarrollado algunos proyectos como lo son una pagina CRUD, aplicaciones de consumo de api, sistema de ventas y algunos proyectos personales."
+            "Descrip":"Trabajo independiente en el que desarrollé algunos proyectos, como una página CRUD, aplicaciones de consumo de API, un sistema de ventas y otros proyectos personales."
         }
     },
     "proyectos":{
@@ -40,14 +40,14 @@
             "img":"file/proyectos/yanapukuy.png",
             "url":"",
             "frontDescrip":"Aplicación dedicado a la generación, gestion y seguimiento de ticket además para el área de soporte TI.",
-            "BackDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket de consultas al área de soporte tecnico para un departamento del ejecito que brinda soport tecnico a los trabajadores proximos. cuenta con base de datos, sistema de acceso, tablas dinamicas, manejo de datos y consulta de estado. Desarrollado en <b>PHP y MySQL</b>."
+            "BackDescrip":"Programa dedicado a la generación, gestión y seguimiento de tickets de consultas al área de soporte técnico de un departamento del Ejército que brinda asistencia a los trabajadores. Cuenta con base de datos, sistema de acceso, tablas dinámicas, manejo de datos y consulta de estado. Desarrollado en <b>PHP y MySQL</b>."
         },
         "1":{
             "name":"listAPPpy",
             "img":"file/proyectos/ListPY.png",
             "url":"https://listapppy.onrender.com/",
-            "frontDescrip":"aplicacion web de consultas de datos de asistencia atraves de google api para <b>solicitar informacion de una tabla excel utilizando Flask de py</b>.",
-            "BackDescrip":"aplicacion web de consultas para ver la coordinacion o lista de elementos en una tabla dinamica de google sheets utilizando tecnologias como <b>Flask</b> para hacer el manejo de la consulta post usando una google apis para un cliente."
+            "frontDescrip":"Aplicacion web de consultas de datos de asistencia atraves de google api para <b>solicitar informacion de una tabla excel utilizando Flask de py</b>.",
+            "BackDescrip":"Aplicación web de consultas para visualizar la coordinación o lista de elementos en una tabla dinámica de Google Sheets, utilizando tecnologías como <b>Flask</b> para el manejo de consultas POST y Google APIs para un cliente."
         },
         "3":{
             "name":"Compumax",
