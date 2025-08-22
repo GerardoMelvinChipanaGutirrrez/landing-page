@@ -45,7 +45,7 @@
         "1":{
             "name":"listAPPpy",
             "img":"file/proyectos/ListPY.png",
-            "url":"",
+            "url":"https://listapppy.onrender.com/",
             "frontDescrip":"aplicacion web de consultas de datos de asistencia atraves de google api para <b>solicitar informacion de una tabla excel utilizando Flask de py</b>.",
             "BackDescrip":"aplicacion web de consultas para ver la coordinacion o lista de elementos en una tabla dinamica de google sheets utilizando tecnologias como <b>Flask</b> para hacer el manejo de la consulta post usando una google apis para un cliente."
         },
