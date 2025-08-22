@@ -13,19 +13,25 @@
         "email":"mailto:gerardoddat@gmail.com"
     },
     "habilidades":["Liderazgo","Creatividad","Cooperación","Oratoria"],
-    "habilidadesProfesionales":["Python","Javascript","PHP","HTML","CSS","Git","SQL","ProstgreSQL","NodeJS","React","Angular","Sass","Java","Pandas","Tailwind","Bootstrap","Power Bi","Excel"],
+    "habilidadesProfesionales":["Python","Django","Flask","Javascript","PHP","HTML","CSS","Git","SQL","ProstgreSQL","NodeJS","React","Angular","Sass","Java","Pandas","Tailwind","Bootstrap","Power Bi","Excel"],
     "experiencia":{
         "0":{
-            "titulo":"Desarrollador web - fullstack",
-            "ubicacion":"EJERCITO DEL PERU - COEDE",
+            "ubicacion":"Desarrollador web - fullstack",
+            "titulo":"EJERCITO DEL PERU - COEDE",
             "fecha":"Abr 2023 - Dic 2023",
             "Descrip":"Desarrolle un aplicativo web de atención al cliente para el área de soporte tecnico del departamento de telecomunicaciones ubicado en el COEDE - Realice la mayoria del proyecto llamado “YANAPUKUY, desde la estructua de la base de datos, el diseño de la pagina, el desarrollo de la interfaces, el sistema de consultas a la base de datos y las funciones de CRUD para la base de datos."
         },
         "1":{
-            "titulo":"Desarrollador de web - front end",
-            "ubicacion":"Digital BUHO",
+            "ubicacion":"Desarrollador web - fullstack",
+            "titulo":"Digital BUHO",
             "fecha":"Sep 2022 - Abril 2023",
             "Descrip":"Desarrollaba pequeñas funciones de muchos proyectos en equipo como lo son un sistema de mensajeria, scrapiar paginas ecomer, login de seguridad y recapcha - la empresa se dedicaba a crear paginas coorporativas, asesoramiento respecto a ello y correos coorporativos."
+        },
+        "3":{
+            "ubicacion":"Desarrollador de software",
+            "titulo":"Trabajo independiente",
+            "fecha":"Sep 2023 - Abril 2024 / Ago 2024 - Actualidad",
+            "Descrip":"Trabajo independiente en el cual he desarrollado algunos proyectos como lo son una pagina CRUD, aplicaciones de consumo de api, sistema de ventas y algunos proyectos personales."
         }
     },
     "proyectos":{
@@ -33,63 +39,70 @@
             "name":"Yanapukuy",
             "img":"file/proyectos/yanapukuy.png",
             "url":"",
-            "frontDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket además.",
-            "BackDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket de consultas al área de soporte tecnico. cuenta con base de datos, sistema de acceso, tablas dinamicas, manejo de datos y consulta de estado."
+            "frontDescrip":"Aplicación dedicado a la generación, gestion y seguimiento de ticket además para el área de soporte TI.",
+            "BackDescrip":"Programa dedicado a la generacion, gestion y seguimiento de ticket de consultas al área de soporte tecnico para un departamento del ejecito que brinda soport tecnico a los trabajadores proximos. cuenta con base de datos, sistema de acceso, tablas dinamicas, manejo de datos y consulta de estado. Desarrollado en <b>PHP y MySQL</b>."
         },
         "1":{
+            "name":"listAPPpy",
+            "img":"file/proyectos/ListPY.png",
+            "url":"",
+            "frontDescrip":"aplicacion web de consultas de datos de asistencia atraves de google api para <b>solicitar informacion de una tabla excel utilizando Flask de py</b>.",
+            "BackDescrip":"aplicacion web de consultas para ver la coordinacion o lista de elementos en una tabla dinamica de google sheets utilizando tecnologias como <b>Flask</b> para hacer el manejo de la consulta post usando una google apis para un cliente."
+        },
+        "3":{
             "name":"Compumax",
             "img":"file/proyectos/compumax.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Compumax",
-            "frontDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado desde cero.",
-            "BackDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado desde cero."
+            "frontDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado en <b>React</b>.",
+            "BackDescrip":"Interfaz principal de una pagina e-comers de una tienda de tecnologia, maquetado y desarrollado en <b>React</b> conm funcionalidades como login, carrito de venta, catalogo, vista de producto y vista de lista de proctos."
         },
         "2":{
             "name":"Login de banca por internet",
             "img":"file/proyectos/acceso-de-seguridad.png",
             "url":"https://github.com/MichelBalvinOrmedo1/bancaPorInternet",
-            "frontDescrip":"Clon de programa de acceso bancario.",
-            "BackDescrip":"Clon de programa de acceso bancario, tabajado en equipo el cual cuenta con algunas funciones de seguridad como recapcha, bloqueo de teclado, teclado númerico aleatorio."
-        },
-        "3":{
-            "name":"listAPPpy",
-            "img":"file/proyectos/ListPY.png",
-            "url":"",
-            "frontDescrip":"aplicacion web de consultas a una tabla google sheets utilizando flask de py.",
-            "BackDescrip":"aplicacion web de consultas para ver la coordinacion o lista de elementos en una tabla dinamica de google sheets utilizando tecnologias como flask para hacer el manejo de la consulta post usando una llave google."
+            "frontDescrip":"Front que trata de replicar el acceso de un banco imaginaro.",
+            "BackDescrip":"Clon de programa de acceso bancario, trabajado en equipo el cual cuenta con algunas funciones de seguridad como recapcha, bloqueo de input,auto completado, teclado númerico aleatorio para el aprendisaje del equipo."
         },
         "4":{
+            "name":"sistema Post",
+            "img":"file/proyectos/sistemaPost.png",
+            "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Fluppy-bird-clone",
+            "frontDescrip":"Sistema post y almacenamiento de datos en <b>Visual Studio Aplication</b> para un pequeño negocio de ventas electronicas.",
+            "BackDescrip":"Sistema dedicado al inventario, proceso de venta y elavoración de boleta en <b>Visual Studio Aplication</b> para un pequeño negocio dedicado al ambito tecnologico."
+        },
+        "10":{
             "name":"Clon-fluppy-bird",
             "img":"file/proyectos/fluppy.jpg",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Fluppy-bird-clone",
-            "frontDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje.",
-            "BackDescrip":"Ejercicion desarrollado en React y utilizando phaser como parte de aprendisaje."
+            "frontDescrip":"Aplicativo dedicado al aplendizaje, desarrollado en <b>React</b> y utilizando el entorno de <b>Phaser</b>, basado en el juego de fluppy bird.",
+            "BackDescrip":"Aplicativo dedicado al aplendizaje, especificamente para logra terminar un curso certificado, desarrollado en <b>React</b> y utilizando el entorno de <b>Phaser</b>, basado en el juego de fluppy bird."
         },
-        "5":{
+        "7":{
             "name":"Calculadora",
             "img":"file/proyectos/calculadora.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Calculadora",
-            "frontDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje.",
-            "BackDescrip":"Ejercicion desarrollado en React utilizando objetos como parte de aprendisaje."
+            "frontDescrip":"Ejercicio desarrollado en React utilizando objetos como parte de aprendisaje.",
+            "BackDescrip":"Ejercicio desarrollado en React utilizando objetos como parte de aprendisaje."
         },
         "6":{
             "name":"Pokedex-con- react",
             "img":"file/proyectos/pokeapi.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Pokedex-React",
-            "frontDescrip":"Ejercicion desarrollado en React como parte de aprendisaje.",
-            "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
+            "frontDescrip":"Ejercicio desarrollado en React como parte de aprendisaje.",
+            "BackDescrip":"Ejercicio desarrollado en React como parte de aprendisaje."
         },
-        "7":{
+        "5":{
             "name":"Money-camb",
             "img":"file/proyectos/cambia-camb.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Money-camb",
-            "frontDescrip":"Programa de cambio de divisas.",
-            "BackDescrip":"Ejercicion desarrollado en React como parte de aprendisaje."
+            "frontDescrip":"Pequeño programa de consulta de divisas, desarrollado en <b>React</b>.",
+            "BackDescrip":"Pequeño programa de consulta de divisas, desarrollado en <b>React</b> que jala sus recursos para las operaciones de cambio de moneda de una json."
         },
         "8":{
             "name":"Gifsapp",
             "img":"file/proyectos/gif-app.png",
             "url":"https://github.com/GerardoMelvinChipanaGutirrrez/Gif-app",
-            "frontDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest.",
+            "frontDescrip":"Aplicativo de angular creado como ejercicio de aprendisaje personal que se enfoca en el consumo de apis rest.",
             "BackDescrip":"Prueba tecnica de uso de tecnologias como angular, y api rest."
         }
     }

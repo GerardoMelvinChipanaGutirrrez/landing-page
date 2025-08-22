@@ -1,4 +1,10 @@
-
+.contact{
+    display: grid;
+}
+.Qr-img{
+    height: 10rem;
+    width: 10rem;
+}
 .bg-footer-top{
     background-color: var(--background-color-1);
     width: 100%;
